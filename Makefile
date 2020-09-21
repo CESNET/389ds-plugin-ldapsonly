@@ -1,6 +1,6 @@
 CC = gcc
 LD = gcc
-CFLAGS = -Wall -fPIC -I/usr/include/dirsrv -I/usr/include/nspr -I/usr/include/mozldap
+CFLAGS = -Wall -g3 -fPIC -I/usr/include/dirsrv -I/usr/include/nspr -I/usr/include/mozldap
 LDFLAGS = -shared
 OBJS = ldapsonly.o
 all: ldapsonly.so
