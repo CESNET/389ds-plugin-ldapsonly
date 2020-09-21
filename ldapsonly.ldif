@@ -1,0 +1,15 @@
+dn: cn=LDAPS only Plug-in,cn=plugins,cn=config
+objectClass: top
+objectClass: nsSlapdPlugin
+objectClass: extensibleObject
+cn: LDAPS only Plug-in
+nsslapd-pluginPath: /usr/lib/x86_64-linux-gnu/dirsrv/plugins/ldapsonly.so
+nsslapd-pluginInitfunc: ldapsonly_init
+nsslapd-pluginType: preoperation
+nsslapd-pluginEnabled: on
+nsslapd-pluginId: LDAPS only
+nsslapd-pluginDescription: Pre-Bind plugin to prevent users from binding over nonSSL lines.
+nsslapd-pluginVersion: 0.3
+nsslapd-pluginVendor: Jan Tomasek
+nsslapd-pluginarg0: ::ffff:127.0.0.1
+nsslapd-pluginarg1: ::ffff:192.168.1.33
