@@ -12,4 +12,4 @@ nsslapd-pluginDescription: Pre-Bind plugin to prevent users from binding over no
 nsslapd-pluginVersion: 0.3
 nsslapd-pluginVendor: Jan Tomasek
 nsslapd-pluginarg0: ::ffff:127.0.0.1
-nsslapd-pluginarg1: ::ffff:192.168.1.33
+nsslapd-pluginarg1: ::1/128
